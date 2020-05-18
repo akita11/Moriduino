@@ -213,7 +213,7 @@ Connection ~ 9300 2200
 Wire Wire Line
 	8950 2300 8950 1450
 Wire Wire Line
-	9050 2000 9050 1350
+	9050 2000 9050 1700
 Wire Wire Line
 	9150 1900 9150 1450
 Wire Wire Line
@@ -1293,4 +1293,10 @@ Text Label 1700 4550 0    50   ~ 0
 USB_DM
 Text Label 8900 2900 0    60   ~ 0
 A4
+Wire Wire Line
+	9350 1700 9050 1700
+Connection ~ 9350 1700
+Connection ~ 9050 1700
+Wire Wire Line
+	9050 1700 9050 1350
 $EndSCHEMATC
