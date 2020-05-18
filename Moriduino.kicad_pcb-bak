@@ -248,8 +248,8 @@
     (add_net "Net-(U5-Pad3)")
   )
 
-  (module akita:USB-C_16P_TH (layer F.Cu) (tedit 5EC23146) (tstamp 5EC2E7B1)
-    (at 117.273 96.395 270)
+  (module akita:USB-C_16P_TH (layer F.Cu) (tedit 5EC23146) (tstamp 5EC27A9F)
+    (at 113.538 86.995 270)
     (descr "USB Type-C Receptable, 16p with 8p dummy, GCT USB4110")
     (path /5ED8A87B)
     (fp_text reference CN1 (at -3.81 -2.54 90) (layer F.SilkS)
@@ -299,7 +299,7 @@
       (net 2 GND) (solder_mask_margin 0.1016))
   )
 
-  (module Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias (layer F.Cu) (tedit 5B4E85CE) (tstamp 5EC2E280)
+  (module Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias (layer F.Cu) (tedit 5B4E85CE) (tstamp 5EC27EA2)
     (at 130.838 92.8125 270)
     (descr "QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
     (tags "QFN DFN_QFN")
@@ -746,7 +746,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5EC2E97F)
+  (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5EC296C7)
     (at 123.698 83.185 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1724,8 +1724,8 @@
     )
   )
 
-  (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5EC2E905)
-    (at 124.968 94.615 180)
+  (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5EC25776)
+    (at 121.158 98.425 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5EC39DD9)
@@ -1765,8 +1765,8 @@
     )
   )
 
-  (module Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal (layer F.Cu) (tedit 5AFE01FF) (tstamp 5EC2E6A5)
-    (at 119.888 84.455 180)
+  (module Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal (layer F.Cu) (tedit 5AFE01FF) (tstamp 5EC26C8E)
+    (at 119.888 86.995 180)
     (descr "USB B receptacle, Horizontal, through-hole, http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf")
     (tags "USB-B receptacle horizontal through-hole")
     (path /5EC21E87)
@@ -1816,8 +1816,8 @@
     )
   )
 
-  (module Resistor_SMD:R_1210_3225Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5EC2E850)
-    (at 121.158 94.745 90)
+  (module Resistor_SMD:R_1210_3225Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5EC25693)
+    (at 117.348 98.425 90)
     (descr "Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EC289AB)
