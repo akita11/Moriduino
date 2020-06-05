@@ -414,7 +414,7 @@ F 3 "" H 2300 2650 50  0001 C CNN
 F 4 "FDN340P" H 2330 2800 20  0001 C CNN "MPN"
 F 5 "305030026" H 2330 2800 20  0001 C CNN "SKU"
 	1    2300 2650
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LMV358 U2
@@ -921,8 +921,6 @@ Wire Wire Line
 Connection ~ 1050 3250
 Wire Wire Line
 	1450 2650 1650 2650
-Wire Wire Line
-	1950 2650 2100 2650
 $Comp
 L power:+5V #PWR011
 U 1 1 5ECF0147
@@ -935,11 +933,7 @@ F 3 "" H 2550 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 2650 2550 2650
-Wire Wire Line
 	2050 1650 2300 1650
-Wire Wire Line
-	2300 1650 2300 2450
 $Comp
 L power:+3.3V #PWR07
 U 1 1 5ECF7F8F
@@ -1342,4 +1336,10 @@ Wire Wire Line
 	1750 5050 1750 5150
 Wire Wire Line
 	9900 4750 9900 4800
+Wire Wire Line
+	2100 2650 1950 2650
+Wire Wire Line
+	2500 2650 2550 2650
+Wire Wire Line
+	2300 2450 2300 1650
 $EndSCHEMATC
